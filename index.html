@@ -119,18 +119,31 @@
         <div class="container">
             <p>Se quiser denunciar um bug ou dar uma sugestão ao jogo,<br> recomendamos postar na Comunidade Steam
                 ou no servidor do <br>Discord, mas também pode tentar nos mandar um e-mail:
-                </p></div><div class="container">
-                <form>
-                    <label class="form-label" for="nome">Nome completo:</label>
-                    <input class="form-control" type="text" id="nome" required/>
-                    <label class="form-label" for="email">E-mail:</label>
-                    <input class="form-control" type="email" id="email" required/>
-                    <label class="form-label" for="tel">Telefone:</label>
-                    <input class="form-control" type="tel" id="tel" required>
-                    <label class="form-label" for="texto">Sua mensagem:</label>
-                    <textarea class="form-control" id="texto" required></textarea>
-                    <button class="btn btn-success" type="submit">Enviar</button>
-                </form>
+                </p>
+        </div>
+        <div class="container accordion">
+                <div class="container accordion-item">
+                    <div class="container accordion-header">
+                        <button class="accordion-button accordion-button-sm" data-bs-toggle="collapse" data-bs-target="#form">
+                            lorem
+                        </button>
+                    </div>
+                    <div id="form" class="container accordion-collapse collapse show">
+                        <div class="container accordion-body">
+                            <form>
+                                <label class="form-label" for="nome">Nome completo:</label>
+                                <input class="form-control" type="text" id="nome" required/>
+                                <label class="form-label" for="email">E-mail:</label>
+                                <input class="form-control" type="email" id="email" required/>
+                                <label class="form-label" for="tel">Telefone:</label>
+                                <input class="form-control" type="tel" id="tel" required>
+                                <label class="form-label" for="texto">Sua mensagem:</label>
+                                <textarea class="form-control" id="texto" required></textarea>
+                                <button class="btn btn-warning" type="submit">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
         </div>
         <div class="container">
             <img src="media/odyssey-logo-new.png" style="width: 20%; margin-top: 200px;" alt="Logo Odyssey Interactive">
@@ -143,5 +156,6 @@
             </p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

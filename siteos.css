@@ -42,7 +42,7 @@ header nav li a {
 }
 
 header .container, section .container {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center
 }
@@ -117,4 +117,9 @@ footer {
 }
 #intro h3 {
     margin-top: 16px;
+}
+.accordion, .accordion-item,
+.accordion-header, .accordion-collapse,
+.accordion-body {
+    display: block;
 }

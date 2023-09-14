@@ -24,12 +24,17 @@ header, section h2, section h3, form button, #intro, h1{
 }
 header {
     padding: 16px 0;
-    color:aliceblue
+    color:aliceblue;
 }
 header nav li {
     display: inline;
     margin-left: 16px;
     font-size: 18px;
+}
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 header nav li a {
     color:aliceblue;
@@ -41,10 +46,10 @@ header nav li a {
     margin: 0 auto;
 }
 
-header .container, section .container {
+section .container {
     display: block;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 #about .container, #game .container,
 #about2 .container {

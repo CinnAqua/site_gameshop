@@ -46,6 +46,10 @@ header .container, section .container {
     align-items: center;
     justify-content: center
 }
+#about .container, #game .container,
+#about2 .container {
+    display: flex;
+}
 section .container {
     align-items: flex-start;
 }
@@ -118,8 +122,6 @@ footer {
 #intro h3 {
     margin-top: 16px;
 }
-.accordion, .accordion-item,
-.accordion-header, .accordion-collapse,
-.accordion-body {
-    display: block;
+#contact > .container {
+    max-width: 40%;
 }
